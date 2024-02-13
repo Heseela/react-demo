@@ -17,14 +17,14 @@ function App() {
     <>
     {/* <Toolbar /> */}
     <Routes>
-      <Route  path="/" element={<Home />} />
+      <Route  path="/home" element={<Home />} />
       <Route  path="/about" element={<About />} />
       <Route  path="/pricing" element={<Pricing />} />
       <Route  path="/ourcar" element={<OurCar />} />
       <Route  path="/blog" element={<Blog />} />
       <Route  path="/contact" element={<Contact />} />
 
-      <Route path="/table" element={<Table/>}/>
+      <Route path="/" element={<Table/>}/>
 
     </Routes>
     {/* <Home /> */}
